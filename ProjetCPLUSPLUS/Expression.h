@@ -1,4 +1,5 @@
-#pragma once
+#ifndef EXPRESSION_H
+#define EXPRESSION_H
 template<class T>
 class Expression
 {
@@ -8,3 +9,4 @@ public:
 	
 };
 
+#endif
