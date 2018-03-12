@@ -5,7 +5,6 @@ template<class T>
 class BinaryExpression
 {
 public:
-	virtual T evaluate(Expression,Expression) = 0;
-};
+	virtual T evaluate(Expression, Expression) = 0;
 
 #endif

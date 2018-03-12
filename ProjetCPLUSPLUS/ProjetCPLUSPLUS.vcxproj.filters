@@ -33,6 +33,72 @@
     <ClInclude Include="UnaryExpression.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="And.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AndMin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AndMul.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Or.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrMax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrPlus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Then.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThenMin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThenMul.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Agg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AggMax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AggPlus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MamdaniDefuzz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CogDefuzz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Not.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NotMinus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Is.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryExpressionModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnaryExpressionModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -50,5 +116,13 @@
     <ClCompile Include="UnaryExpression.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ValueModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProjetCPLUSPLUS.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

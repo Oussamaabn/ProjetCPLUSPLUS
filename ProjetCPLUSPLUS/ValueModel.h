@@ -26,4 +26,5 @@ void ValueModel<T>::setValue(T v)
 	value = v;
 }
 
+
 #endif
