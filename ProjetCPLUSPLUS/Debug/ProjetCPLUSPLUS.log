@@ -1,1 +1,20 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB8020: Les outils de génération pour v120 (ensemble d'outils de plateforme = 'v120') sont introuvables. Pour générer à l'aide des outils de génération v120, installez les outils de génération v120. Vous avez également la possibilité de mettre à niveau les outils Visual Studio actuels en sélectionnant le menu Projet ou en cliquant avec le bouton droit sur la solution, puis en sélectionnant "Recibler la solution".
+﻿  stdafx.cpp
+  BinaryExpression.cpp
+  Expression.cpp
+  ProjetCPLUSPLUS.cpp
+c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(13): error C2143: erreur de syntaxe : absence de ')' avant '*='
+  c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(22): note: voir la référence à l'instanciation de classe modèle 'core::BinaryExpressionModel<T>' en cours de compilation
+c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(13): error C2143: erreur de syntaxe : absence de ';' avant '*='
+c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(13): error C2059: erreur de syntaxe : '*='
+c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(13): error C2059: erreur de syntaxe : ')'
+c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(13): error C2238: jetons inattendus avant ';'
+c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(32): error C2244: 'core::BinaryExpressionModel<T>::BinaryExpressionModel' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(31): note: voir la déclaration de 'core::BinaryExpressionModel<T>::BinaryExpressionModel'
+  c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(32): note: définition
+  c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(32): note: 'core::BinaryExpressionModel<T>::BinaryExpressionModel(core::BinaryExpression<T> *,core::Expression<T> *,core::Expression<T> *)'
+  c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(32): note: déclarations existantes
+  c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(32): note: 'core::BinaryExpressionModel<T>::BinaryExpressionModel(core::BinaryExpression<T>)'
+  c:\users\temp\desktop\mr.perronne\projetcplusplus-master\projetcplusplus-master\projetcplusplus\binaryexpressionmodel.h(32): note: 'core::BinaryExpressionModel<T>::BinaryExpressionModel(void)'
+  UnaryExpression.cpp
+  ValueModel.cpp
+  Génération de code en cours...

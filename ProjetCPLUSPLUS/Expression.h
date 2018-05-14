@@ -1,12 +1,14 @@
 #ifndef EXPRESSION_H
 #define EXPRESSION_H
-template<class T>
-class Expression
-{
-public:
 
-	virtual T evaluate() = 0;
-	
-};
+namespace core {
+	template<class T>
+	class Expression
+	{
+	public:
 
+		virtual T evaluate() const = 0 ;
+
+	};
+}
 #endif

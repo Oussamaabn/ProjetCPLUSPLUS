@@ -1,13 +1,13 @@
 #pragma once
 #ifndef AND_H
 #define AND_H
-#include"Expression.h"
-
-template<class T>
-class And: public BinaryExpression
-{
-};
-
+#include"BinaryExpression.h"
+namespace fuzzy {
+	template<class T>
+	class And : public core::BinaryExpression<T>
+	{
+	};
+}
 
 
 #endif // !AND_H

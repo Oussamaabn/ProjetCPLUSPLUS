@@ -99,6 +99,18 @@
     <ClInclude Include="UnaryExpressionModel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ExpressionFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FuzzyFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnaryShadowExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryShadowExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

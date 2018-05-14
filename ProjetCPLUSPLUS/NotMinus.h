@@ -2,29 +2,31 @@
 #ifndef NOTMINUS_H
 #define NOTMINUS_H
 #include "Not.h"
-template <class T>
-class Not : public Not
-{
-public:
-	NotMinus();
-	~NotMinus();
-	virtual T evaluate(Expression, Expression);
 
-};
+namespace fuzzy {
+	template <class T>
+	class NotMinus : public fuzzy::Not<T>
+	{
+	public:
+		NotMinus();
+		~NotMinus();
+		virtual T evaluate(core::Expression<T>*, core::Expression<T>*);
+
+	};
+
+	
+	template<class T>
+	inline T NotMinus<T>::evaluate(core::Expression<T>*, core::Expression<T>*)
+	{
+		return T();
+	}
+	template<class T>
+	inline NotMinus<T>::NotMinus()
+	{
+	}
+	template<class T>
+	inline NotMinus<T>::~NotMinus()
+	{
+	}
+}
 #endif // !NOTMINUS_H
-
-template<class T>
-inline Not<T>::NotMinus()
-{
-}
-
-template<class T>
-inline Not<T>::~NotMinus()
-{
-}
-
-template<class T>
-inline T Not<T>::evaluate(Expression, Expression)
-{
-	return T();
-}

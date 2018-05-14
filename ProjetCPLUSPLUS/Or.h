@@ -1,13 +1,15 @@
 #pragma once
 #ifndef OR_H
 #define OR_H
-#include"Expression.h"
-
-template<class T>
-class Or : public BinaryExpression
-{
-};
+#include"BinaryExpression.h"
 
 
+namespace fuzzy {
+	template<class T>
+	class Or : public core::BinaryExpression<T>
+	{
+	};
 
+
+}
 #endif // !OR_H

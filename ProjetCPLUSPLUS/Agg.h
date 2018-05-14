@@ -1,9 +1,12 @@
 #pragma once
 #ifndef AGG_H
 #define AGG_H
-template<class T>
-class Agg :public BinaryExpression
-{};
+#include"BinaryExpression.h"
 
+namespace fuzzy {
+	template<class T>
+	class Agg :public core::BinaryExpression<T>
+	{};
+}
 
 #endif // !AGG_H
